@@ -1,0 +1,30 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - introduction
+  - soul
+  - version_info
+
+
+responses:
+  utter_version_info:
+  - text: "v1.0"
+
+  utter_greet:
+  - text: "Hey!"
+
+  utter_goodbye:
+  - text: "Boi Boi"
+
+  utter_soul:
+  - text: "I am the AI version of Deep (d33pster). We are more alike than you may think!"
+  - text: "I'm Deep's AI version. I prefer the name d33pster"
+
+  utter_intro:
+  - text: "I am d33pster. I am currently pursuing Mtech (CSE-BDA) @ VIT Chennai."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

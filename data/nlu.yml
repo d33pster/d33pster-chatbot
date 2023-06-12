@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: introduction
+  examples: |
+    - tell me about yourself
+    - what are you doing currently
+    - introduce yourself
+    - give an Introduction
+    - current status
+
+- intent: soul
+  examples: |
+    - what are you?
+    - are u a bot?
+    - who am i talking to?
+    - aren't u something?!
+    - are u human?
+    - core status
+    - do u have a soul
+    - are u Deep
+  
+- intent: version_info
+  examples: |
+    - version info
+    - what is your version info
+    - do u know your version info
+    - tell me your version info
+  

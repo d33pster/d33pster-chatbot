@@ -1,0 +1,24 @@
+version: "3.1"
+
+stories:
+
+- story: basic convo 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: soul
+  - action: utter_soul
+  - intent: introduction
+  - action: utter_intro
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: basic convo 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduction
+  - action: utter_intro
+  - intent: goodbye
+  - action: utter_goodbye
+
