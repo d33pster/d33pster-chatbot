@@ -6,11 +6,14 @@ intents:
   - introduction
   - soul
   - version_info
+  - show_projects
 
+actions:
+  - action_show_projects
 
 responses:
   utter_version_info:
-  - text: "v1.0"
+  - text: "v1.5"
 
   utter_greet:
   - text: "Hey!"

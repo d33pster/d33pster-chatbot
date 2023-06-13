@@ -16,3 +16,8 @@ rules:
   steps:
   - intent: version_info
   - action: utter_version_info
+
+- rule: show projects whenever asked
+  steps:
+  - intent: show_projects
+  - action: action_show_projects

@@ -10,6 +10,8 @@ stories:
   - action: utter_soul
   - intent: introduction
   - action: utter_intro
+  - intent: show_projects
+  - action: action_show_projects
   - intent: goodbye
   - action: utter_goodbye
 
@@ -19,6 +21,8 @@ stories:
   - action: utter_greet
   - intent: introduction
   - action: utter_intro
+  - intent: show_projects
+  - action: action_show_projects
   - intent: goodbye
   - action: utter_goodbye
 

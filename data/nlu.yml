@@ -56,3 +56,14 @@ nlu:
     - do u know your version info
     - tell me your version info
   
+- intent: show_projects
+  examples: |
+    - what projects have you done
+    - show your projects
+    - show projects
+    - list projects
+    - tell your projects
+    - what projects have you worked on
+    - major projects you have worked on
+    - current projects
+    - state your projects
