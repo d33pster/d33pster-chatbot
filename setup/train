@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+conda activate d33pster
+# cd ..
+clear
+echo -n "train sequence initialised ..."
+sleep 3
+echo " "
+echo " "
+rasa train

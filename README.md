@@ -1,8 +1,13 @@
-# d33pster-chatbot v1.5
+# d33pster-chatbot v1.8
 Contains an AI version of me
 ## Prereqs ~~ Annaconda preinstalled
 ## Instructions
 ### git clone the repo
-### Open two terminals and go to the cloned folder in both of them
-### for Windows run command "python d33pster.py" in one terminal and run "rasa run actions" in the other
-### for Linux first run "chmod +x ./d33pster.py" and then "./d33pster.py" in one terminal and "rasa run actions" in the other
+### Linux
+1. ```cd d33pster-chatbot``` except when you're using ```gcl`` command from project Automate-Linux repo
+2. ```chmod +x ./env```
+3. ```./env``` ~ and minimize it
+4. open another terminal at @ d33pster-chatbot folder and run the following:
+5. ```conda activate d33pster```
+6. ```chmod +x ./d33pster```
+7. ```./d33pster``` ~ here train is only necessary if config files changed. else use shell

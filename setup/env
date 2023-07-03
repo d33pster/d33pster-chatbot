@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+conda_base=$(conda info --base)
+conda_source="$conda_base/etc/profile.d/conda.sh"
+
+clear
+echo -n "Initialising ..."
+sleep 2
+echo  " "
+echo " "
+source $conda_source
+conda create --name d33pster python=3.8 -y
+clear
+echo -n "Preparing to install Rasa(3.5.11) ..."
+sleep 3
+echo " "
+echo " "
+conda activate d33pster
+export SQLALCHEMY_SILENCE_UBER_WARNING=1
+pip install rasa==3.5.11
+clear
+echo -n "done."
+sleep 3
+clear
+echo -n "activating ..."
+sleep 2
+echo " "
+echo " "
+#cd ..
+rasa run actions

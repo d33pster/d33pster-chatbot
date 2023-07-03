@@ -1,8 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 import platform
-import warnings
 
 def refresh():
     if platform.system()=='Windows':
@@ -11,14 +10,15 @@ def refresh():
         os.system("clear")
 
 refresh()
-envPath = os.path.join(os.path.join(os.getcwd(), 'd33pster'), 'env.py')        
-os.system(f"python {envPath}")
-refresh()
+if platform.system()=='Linux':
+    envPath = os.path.join(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'setup'), 'env')
+    os.system(f"chmod +x {envPath}")        
+    os.system(f"{envPath}")
 
 # ch = int(input("Press 0 to train ... "))
 # if ch==0:
 #     trainPath = os.path.join(os.path.join(os.getcwd(), 'd33pster'), 'train.py')
 #     os.system(f"python {trainPath}")
 
-shellPath = os.path.join(os.path.join(os.getcwd(), 'd33pster'), 'shell.py')
-os.system(f"python {shellPath}")
+# shellPath = os.path.join(os.path.join(os.getcwd(), 'd33pster'), 'shell.py')
+# os.system(f"python3 {shellPath}")
