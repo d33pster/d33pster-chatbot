@@ -4,7 +4,7 @@ Contains an AI version of me
 ## Instructions
 ### git clone the repo
 ### Linux
-1. ```cd d33pster-chatbot``` except when you're using ```gcl`` command from project Automate-Linux repo
+1. ```cd d33pster-chatbot``` except when you're using ```gcl``` command from project Automate-Linux repo
 2. ```chmod +x ./env```
 3. ```./env``` ~ and minimize it
 4. open another terminal at @ d33pster-chatbot folder and run the following:
