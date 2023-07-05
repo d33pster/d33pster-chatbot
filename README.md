@@ -1,6 +1,6 @@
 # d33pster-chatbot v1.8
 Contains an AI version of me
-## Prereqs ~~ Annaconda preinstalled
+## Prereqs ~~ Annaconda or Miniconda preinstalled
 ## Instructions
 ### git clone the repo
 ### Linux
