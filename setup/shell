@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+conda_base=$(conda info --base)
+conda_source="$conda_base/etc/profile.d/conda.sh"
+source $conda_source
 
 conda activate d33pster
 # cd ..
