@@ -7,14 +7,14 @@ from time import sleep
 def refresh():
     if platform.system()=='Windows':
         os.system("cls")
-    elif platform.system()=='Linux':
+    elif platform.system()=='Linux' or platform.system()=='Darwin':
         os.system("clear")
 
 trainPath = os.path.join(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'setup'), 'train')
 shellPath = os.path.join(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'setup'), 'shell')
 
 refresh()
-if platform.system()=='Linux':
+if platform.system()=='Linux' or platform.system()=='Darwin':
     print("Press 1 to train :: Press 0 to shell")
     choice = int(input(":: "))
     if choice==1:
