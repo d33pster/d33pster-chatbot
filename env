@@ -6,11 +6,11 @@ import platform
 def refresh():
     if platform.system()=='Windows':
         os.system("cls")
-    elif platform.system()=='Linux':
+    elif platform.system()=='Linux' or platform.system()=='Darwin':
         os.system("clear")
 
 refresh()
-if platform.system()=='Linux':
+if platform.system()=='Linux' or platform.system()=='Darwin':
     envPath = os.path.join(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'setup'), 'env')
     os.system(f"chmod +x {envPath}")        
     os.system(f"{envPath}")
